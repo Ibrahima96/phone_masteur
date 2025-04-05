@@ -89,8 +89,8 @@ i:hover{
         height: 37px;
         font-size: 12px;
     }
-    .wordprimary{
-        width: 90%;
+    div.wordprimary{
+        width: 100%;
         padding: 50px;
     }
     .wordsecondary{
@@ -98,8 +98,9 @@ i:hover{
         padding: 10px;
     }
     i{
-        font-size: 1.2em;
-        margin-right: 20px;
+        font-size: 1.5em;
+        margin-bottom: 102px;
+        float: none;
     }
     .wordsecondary input[type="text"]{
         width: 90%;
