@@ -1,6 +1,15 @@
 body {
     background: linear-gradient(rgba(0, 9, 30, 0.8), rgba(0, 9, 30, 0.8)),
-                url('https://files.catbox.moe/rmv8rz.jpg');
+         url('https://files.catbox.moe/rmv8rz.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    object-fit: contain;
+    width: 100%;
+}
+.corpus {
+    background: linear-gradient(rgba(0, 9, 30, 0.8), rgba(0, 9, 30, 0.8)),
+         url('https://files.catbox.moe/zq1d76.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -32,6 +41,20 @@ button {
     transition:  0.5s ease-in;
     
 }
+.buttons {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition:  0.5s ease-in;
+    background: transparent;
+    
+}
+
 
 button:hover {
     background-color: #0056b3;
@@ -89,8 +112,8 @@ i:hover{
         height: 37px;
         font-size: 12px;
     }
-    div.wordprimary{
-        width: 100%;
+    .wordprimary{
+        width: 90%;
         padding: 50px;
     }
     .wordsecondary{
@@ -99,7 +122,7 @@ i:hover{
     }
     i{
         font-size: 1.5em;
-        margin-bottom: 102px;
+        margin-bottom: 12px;
         float: none;
     }
     .wordsecondary input[type="text"]{

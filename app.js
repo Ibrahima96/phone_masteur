@@ -5,7 +5,7 @@ let song = () => {
 };
 
 
-
+let body = document.querySelector("body");
 let btn = document.querySelectorAll("button");
 let input = document.getElementById("result");
 
@@ -37,4 +37,10 @@ btn.forEach((item) => {
 });
 
 
-
+document.getElementById("icone").addEventListener("click", function () {
+  body.classList.toggle("corpus");
+  let btn = document.querySelectorAll("button");
+  btn.forEach((item) => {
+    item.classList.toggle("buttons");
+  });
+});
