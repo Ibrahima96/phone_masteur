@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clavier Complet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div>
+     <i class="ri-contrast-2-fill"></i>
+    </div>
+    <section class="wordprimary">
+        <div class="wordsecondary">
+            <input class="wordsecondary  " type="text" id="result" placeholder="...">
+        </div>
+    </section>
+    <div class="keyboard" >
+        <!-- Ligne des chiffres -->
+        <div class="row">
+            <button value="1">1</button>
+            <button value="2">2</button>
+            <button value="3">3</button>
+            <button value="4">4</button>
+            <button value="5">5</button>
+            <button value="6">6</button>
+            <button value="7">7</button>
+            <button value="8">8</button>
+            <button value="9">9</button>
+            <button value="0">0</button>
+        </div>
+        <!-- Ligne des lettres A à Z -->
+        <div class="row">
+            <button value="A">A</button>
+            <button value="B">B</button>
+            <button value="C">C</button>
+            <button value="D">D</button>
+            <button value="E">E</button>
+            <button value="F">F</button>
+            <button value="G">G</button>
+            <button value="H">H</button>
+            <button value="I">I</button>
+            <button value="J">J</button>
+        </div>
+        <div class="row">
+            <button value="K">K</button>
+            <button value="L">L</button>
+            <button value="M">M</button>
+            <button value="N">N</button>
+            <button value="O">O</button>
+            <button value="P">P</button>
+            <button value="Q">Q</button>
+            <button value="R">R</button>
+            <button value="S">S</button>
+            <button value="T">T</button>
+        </div>
+        <div class="row">
+            <button value="maj">maj</button>
+            <button value="U">U</button>
+            <button value="V">V</button>
+            <button value="W">W</button>
+            <button value="X">X</button>
+            <button value="Y">Y</button>
+            <button value="Z">Z</button>
+            <button value="del">del</button>
+            <button value="space"></button>
+            <button type="submit">Entre</button>
+
+        </div>
+        <!-- Ligne des caractères spéciaux -->
+        <div class="row">
+            <button value="!">!</button>
+            <button value="@">@</button>
+            <button value="#">#</button>
+            <button value="$">$</button>
+            <button value="%">%</button>
+            <button value="^">^</button>
+            <button value="&">&</button>
+            <button value="*">*</button>
+            <button value="(">(</button>
+            <button value=")">)</button>
+        </div>
+    </div>
+
+    <div id="card">
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

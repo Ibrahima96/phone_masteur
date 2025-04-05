@@ -1,0 +1,109 @@
+body {
+    background: linear-gradient(rgba(0, 9, 30, 0.8), rgba(0, 9, 30, 0.8)),
+                url('https://files.catbox.moe/rmv8rz.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    object-fit: contain;
+    width: 100%;
+}
+
+.keyboard {
+    display: grid;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition:  0.5s ease-in;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+    border-color: crimson;
+    background: linear-gradient(rgba(0, 9, 30, 0.8), rgba(0, 9, 30, 0.4)),
+    url('https://files.catbox.moe/69ehc0.jpg');
+background-size: cover;
+background-position: center;
+transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.wordprimary{ 
+    display:block;
+    margin: auto;
+    width: 59%;
+    padding: 100px;
+    background-color: transparent;
+    border-radius: 5px;
+  
+}
+.wordsecondary{
+  width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #333;
+}
+.wordsecondary input[type="text"]{
+   
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+i{
+    color: #007BFF;
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    float: right;
+    margin-right: 29px;
+}
+i:hover{
+    color: #0056b3;
+    transform: scale(1.2);
+}
+@media screen and (max-width: 600px) {
+    button {
+        width: 37px;
+        height: 37px;
+        font-size: 12px;
+    }
+    .wordprimary{
+        width: 90%;
+        padding: 50px;
+    }
+    .wordsecondary{
+        width: 90%;
+        padding: 10px;
+    }
+    i{
+        font-size: 1.2em;
+        margin-right: 20px;
+    }
+    .wordsecondary input[type="text"]{
+        width: 90%;
+        padding: 5px;
+        margin: auto;
+    }
+}
